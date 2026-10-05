@@ -24,3 +24,6 @@ shm              64M     0   64M   0% /dev/shm
 /dev/root        29G   16G   14G  55% /vscode
 /dev/sda1        44G  2.6G   40G   7% /tmp
 /dev/loop4       32G   11G   19G  37% /workspaces
+from what i learned and understand about the absolute path and relative path, the absolute path start with forward slash /  and directroy name so it considers as from root directory where as in relative paths we take it as ../ which moves from current directory to one level below.
+
+about > and >> operator, while > overwrites the content in the file where as  >> appends the content in the file
